@@ -2,7 +2,7 @@ package io.ennate.complex.email;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("awsService")
 public class AWSEmailService implements EmailService {
 
     AWSEmailService() {
